@@ -27,7 +27,7 @@
 
 <body class="lato">
     <!--/////////////////////// header section star ///////////////////////-->
-    <header class="container">
+    <header>
         <!-- navbar-section -->
         <section class="navbar-section">
             <div class="navbar bg-red-400 rounded-full my-12 py-4 px-6">
@@ -69,8 +69,6 @@
                 </div>
               </div>
         </section>
-
-
         <!-- banner section -->
         <section class="banner-section">
             <div class="carousel w-full ">
@@ -144,15 +142,57 @@
                 </div>
               </div>
         </section>
-
-
-
-    
     </header>
     <!--/////////////////////// header section end ///////////////////////-->
     <!-- ---------------------------------------------------------------- -->
     <!--/////////////////////// main section star ///////////////////////-->
     <main>
+      <!-- Deal Of the day section -->
+      <section class="deal-of-day">
+        <div class="timer-part flex flex-col lg:flex-row justify-between">
+          <!-- clock content -->
+          <div>
+            <h2 class="text-5xl font-extrabold">
+              Deal of the day
+            </h2>
+            <p class="text-base text-gray-400 max-w-xl">
+              Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            </p>
+          </div>
+          <!-- clock -->
+          <div>
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:15;"></span>
+                </span>
+                days
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:10;"></span>
+                </span>
+                hours
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:24;"></span>
+                </span>
+                min
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:40;"></span>
+                </span>
+                sec
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div></div>
+        <div></div>
+      </section>
 
     </main>
     <!--/////////////////////// main section end ///////////////////////-->
